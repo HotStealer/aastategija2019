@@ -1,5 +1,110 @@
-.logo{
-    width:40em;
-    height:7em;
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:15px;
+    font-family:Lato, sans-serif;
+}
+.col-lg-12{
+    margin:0;
+    padding:0 !important;
+}
+.header{
+    height:15vh;
 
+}
+.container{
+
+    background-color:#ffffff;
+
+}
+
+.search{
+    color:#ffffff;
+    border:1em solid #0063A6;
+    outline:none;
+    height:3vh;
+}
+.navbar{
+    background-color:#0063A6;
+    color:#ffffff;
+    padding-right:0 !important;
+    padding-left:0 !important;
+    height:8.5vh;
+}
+.nav-link{
+    text-decoration: none;
+    color:#ffffff;
+    height:8.5vh;
+    line-height:6.5vh;
+    text-align: center;
+}
+.nav-item:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background:#0082BE;
+
+}
+.footer{
+    height:18vh;
+    background-color:#0063A6;
+    color:#ffffff;
+}
+.hr{
+    background:#0082BE;
+    height:1vh;
+}
+.hr2{
+     background:#0082BE;
+     height:1vh;
+ }
+.study{
+    height:15em;
+    width:15em;
+    text-align: center;
+    display:block;
+    border-radius:10%;
+}
+
+.css{
+    background:#FDDA00;
+    box-shadow:1px 1px 200px #FDDA00;
+    margin-left:2em;
+}
+.html{
+    margin-right:2em;
+    background:#0082BE;
+    box-shadow:1px 1px 200px #0082BE;
+    float:left;
+}
+.jumbotron{
+    background:white !important;
+    height:63.6vh !important;
+}
+
+/*HTML LEHT*/
+
+.button-main {
+    background: #0063A6 !important;
+    color: white !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:75%;
+}
+.button-teema {
+    width:50%;
+    margin-top: 2px;
+    margin-bottom:2px;
+    background: #0063A6 !important;
+    color: white !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-teema:{
+    border:3px solid #0082BE;
 }
