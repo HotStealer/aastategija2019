@@ -21,7 +21,6 @@ html{
 }
 
 .search{
-    color:#ffffff;
     border:1em solid #0063A6;
     outline:none;
     height:3vh;
@@ -56,55 +55,116 @@ html{
     height:1vh;
 }
 .hr2{
-     background:#0082BE;
+     background:#FDDA00;
      height:1vh;
  }
 .study{
-    height:15em;
-    width:15em;
+    height:10em;
+    width:10em;
     text-align: center;
     display:block;
     border-radius:10%;
+    line-height:10em;
+    font-size:30px;
+    font-weight:bold;
 }
-
+.study a{
+    text-decoration: none;
+}
+.study a:hover{
+    text-decoration:none;
+}
 .css{
     background:#FDDA00;
     box-shadow:1px 1px 200px #FDDA00;
     margin-left:2em;
+    color:#0082BE;
+}
+.css a, .css a:hover{
+    color:#0082BE;
 }
 .html{
     margin-right:2em;
     background:#0082BE;
     box-shadow:1px 1px 200px #0082BE;
     float:left;
+    color:#FDDA00;
 }
+.html a, .html a:hover{
+    color:#FDDA00;
+}
+
 .jumbotron{
     background:white !important;
     height:63.6vh !important;
+    padding-top:1em !important;
 }
 
 /*HTML LEHT*/
 
-.button-main {
+.button-main-html {
     background: #0063A6 !important;
     color: white !important;
+    text-shadow:1px 1px 1px #FDDA00;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
     width:75%;
+    box-shadow:0 0 10px #FDDA00;
 }
-.button-teema {
+.button-html{
     width:50%;
     margin-top: 2px;
     margin-bottom:2px;
+    text-shadow:1px 1px 1px #FDDA00;
     background: #0063A6 !important;
     color: white !important;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow:0 0 10px #FDDA00;
 }
-.button-teema:{
-    border:3px solid #0082BE;
+
+/*KONTAKT LEHT*/
+.button-contact {
+    padding:10px;
+}
+.maps{
+    padding-top:50px;
+}
+
+/*CSS LEHT*/
+.button-main-css {
+    background: #FDDA00 !important;
+    color: white !important;
+    text-shadow:1px 1px 1px #0063A6;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:75%;
+    box-shadow:0 0 10px #0063A6;
+}
+.button-css{
+    width:50%;
+    margin-top: 2px;
+    margin-bottom:2px;
+    text-shadow:1px 1px 1px #0063A6;
+    background: #FDDA00 !important;
+    color: white !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow:0 0 10px #0063A6;
+}
+/* TUTVUSTUS LEHT */
+.display-4 {
+    padding-bottom:20px;
+}
+.banner{
+    object-fit:cover;
+    height:10vh;
 }
