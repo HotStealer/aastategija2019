@@ -3,8 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 <body>
+<div class="header col-lg-12">
+    <a href="index.html"><img class="logo float-left img-fluid col-lg-3  p-3" src="img/Horisontaalne_logo.png"></a>
+    <input type="text" class="search col-lg-9 p-3" placeholder="Otsing...">
+    <div class="hr2 col-lg-9 float-right p-0 m-0"></div>
+    <nav class="navbar navbar-expand-sm col-lg-9">
+        <ul class="navbar-nav w-100">
+            <li class="nav-item   w-25">
+                <a class="nav-link" href="tutvustus.html">Tutvustus</a>
+            </li>
+            <li class="nav-item   w-25">
+                <a class="nav-link" href="html.html">HTML</a>
+            </li>
+            <li class="nav-item  w-25">
+                <a class="nav-link " href="css.html">CSS</a>
+            </li>
+            <li class="nav-item   w-25">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hr p-0 m-0"></div>
+</div>
+<div class="jumbotron jumbotron-fluid h-100">
+    <img src="img/banner.jpg" class="banner col-lg-12 h-5 ">
+    <div class="container">
+        <h1>Kontakt</h1>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Teema</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Sisesta teema">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sisesta email">
+                <small id="emailHelp" class="form-text text-muted">Me ei jaga teie isiklikku informatsiooni.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Sõnum</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary button-contact">Saada</button>
+        </form>
+        <div class="text-center maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.60557503266!2d26.71192471603295!3d58.34945538132673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3747db90ed05%3A0x387b666bb555e743!2sKopli+1%2C+50115+Tartu!5e0!3m2!1sen!2see!4v1551791779577" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<footer class="footer page-footer font-small pt-4">
+    <div class="container-fluid justify-content-center text-md-left">
+        <div class="row">
+            <div class="align-middle col ml-3 mt-md-0 mt-3">
+                <h5 class="text-uppercase font-weight-bold">Aadress</h5>
+                <p>Tartu KHK <br> Kopli 1, 50115 Tartu</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <div class="align-middle col ml-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase font-weight-bold">Kontakt</h5>
+                <p>E-post:info@khk.ee<br>Telefon: 7 351 866</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="align-middle col ml-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase font-weight-bold">Lingid</h5>
+                <p>http://osakond.ikt.khk.ee</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center pt-3">© 2019 Copyright:
+        <a href="#"> </a>
+    </div>
+</footer>
 
 </body>
 </html>
